@@ -9,7 +9,7 @@
 
 std::vector<int64_t> parse_input_file(std::string const& file_name)
 {
-    std::ifstream input("input");
+    std::ifstream input(file_name);
     std::string line;
     std::vector<int64_t> inputs;
     for (std::string line; std::getline(input, line);)
