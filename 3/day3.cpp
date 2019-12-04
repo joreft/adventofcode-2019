@@ -173,5 +173,4 @@ int main()
 {
     part1_solution();
     part2_solution();
-
 }
